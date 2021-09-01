@@ -1,0 +1,38 @@
+C:\Users\Pc\Documents\Diet Planner\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Pc\Documents\Diet Planner\Calculator\bin\Debug\Calculator.exe
+C:\Users\Pc\Documents\Diet Planner\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\App.g.cs
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\MainWindow.baml
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator.exe
+C:\Users\Pc\Documents\Diet Planner\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\App.g.cs
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator.exe
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\bin\Debug\Calculator.exe
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\MainWindow.baml
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\BMR.g.cs
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\BMR.baml
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\TDEE.g.cs
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\TDEE.baml
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\BMI.g.cs
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\BMI.baml
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\BODYFAT.g.cs
+C:\Users\Pc\Documents\Visual Studio 2017\Diet Planner\Calculator\obj\Debug\BODYFAT.baml

@@ -1,0 +1,182 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="BODY CALCULATOR" Height="550" Width="425" Background="GhostWhite" WindowStartupLocation="CenterScreen">
+
+    <Border Padding="10" BorderBrush="WhiteSmoke" BorderThickness="1" OpacityMask="#FFA39595" Background="WhiteSmoke">
+        <StackPanel Background="WhiteSmoke">
+            <!--Info-->
+            <TextBlock Text="Info:" HorizontalAlignment="Center" FontWeight="Bold" Margin="0 5 0 0" FontSize="20" FontFamily="Cambria"/>
+            
+                <!--Age and Sex-->
+            <Grid>          
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="93*"/>
+                    <ColumnDefinition Width="93*"/>
+                    <ColumnDefinition Width="185*"/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <!--Age-->
+                <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Margin="0,10,92.6,0.4">
+                    <TextBlock Text="*Age:"   FontWeight="Bold" Margin="0 5 0 0" FontSize="16" FontFamily="Cambria"/>
+                    <TextBox x:Name="AgeTxt"  Padding="2"/>
+                </StackPanel>
+                <!--cm-->
+                <StackPanel Grid.Column="1" Margin="0,34,196.8,0.8" Grid.ColumnSpan="2"/>
+
+                <!--Sex-->
+                <StackPanel Grid.Column="2" Margin="0.4,10,2.4,0.4">
+                    <TextBlock Text="*Sex:"  FontWeight="Bold" Margin="0 5 0 0" FontSize="16" FontFamily="Cambria"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <CheckBox x:Name="MaleBox" Grid.Column="0" Content="Male"   Margin="0,2,0.2,-0.4" FontFamily="Cambria" HorizontalAlignment="Right" Width="91" Checked="MaleBox_Checked"/>
+                        <CheckBox x:Name="FemaleBox" Grid.Column="1" Content="Female"   Margin="28.4,2,-0.2,0" FontFamily="Cambria" IsChecked="False" Checked="FemaleBox_Checked"/>
+                    </Grid>
+                </StackPanel>
+
+
+            </Grid>
+            <!-- Height   and Weight -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!--Height-->
+                <StackPanel Grid.Column="0" Margin="0 10 0 0">
+                    <TextBlock Text="*Height:"  FontWeight="Bold" Margin="0 5 0 0" FontSize="16" FontFamily="Cambria"/>
+                    <TextBox x:Name="HeightTxt" Padding="2"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Height="25" Margin="3 35 0 0">
+                    <TextBlock Text="(cm)"  FontWeight="Bold" FontSize="14" FontFamily="Cambria" Margin="0,0,-0.8,0"/>
+                </StackPanel>
+
+                <!--Weight-->
+                <StackPanel Grid.Column="2" Margin="0 10 0 0">
+                    <TextBlock Text="*Weight:"  FontWeight="Bold" Margin="0 5 0 0" FontSize="16" FontFamily="Cambria"/>
+                    <TextBox x:Name="WeightTxt" Padding="2"/>
+                </StackPanel>
+                <StackPanel Grid.Column="3" Height="25" Margin="3 35 0 0">
+                    <TextBlock Text="(kg)"  FontWeight="Bold" FontSize="14" FontFamily="Cambria" Margin="0,0,-0.8,0"/>
+                </StackPanel>
+
+
+            </Grid>
+            <!--Activity level and Body fat-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+
+            </Grid>
+            <!--Activity level-->
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="Activity level:" FontWeight="Bold" Margin="0 5 0 5" FontSize="16" FontFamily="Cambria"/>
+                <ComboBox x:Name="ActivityCombo" Padding="2">
+                    <ComboBoxItem>
+                        <TextBlock x:Name="Sedentary120">Sedentary lifestyle</TextBlock>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <TextBlock x:Name="Lightly140">Lightly active</TextBlock>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <TextBlock x:Name="Moderatly155">Moderatly active</TextBlock>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <TextBlock x:Name="Very175">Very active</TextBlock>
+                    </ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
+            <!--Goal-->
+            <Grid>
+                <TextBlock Text="Goal:"  FontWeight="Bold" Margin="0 5 0 0" FontSize="16" FontFamily="Cambria"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+                <CheckBox x:Name="LoseBox"  Content="Lose" Grid.Column="0"  Margin="0,10,0,0" FontFamily="Cambria" Checked="LoseBox_Checked"/>
+                <CheckBox x:Name="MaintainBox" Padding="0" Content="Maintain" Grid.Column="2"  Margin="0,10,0,0" FontFamily="Cambria" Checked="MaintainBox_Checked"/>
+                <CheckBox x:Name="GainBox"  Content="Gain" Grid.Column="4"  Margin="0,10,0,0" FontFamily="Cambria" Checked="GainBox_Checked"/>
+            </Grid>
+
+            <!--Apply and Reset-->
+            <Grid Margin="0 10 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="ApplyButton" Click="ApplyButton_Click" Margin=" 0 0 10 0" Grid.Column ="0" Content="Apply"    FontSize="16" FontFamily="Cambria"/>
+                <Button x:Name="ResetButton" Margin="0 0 0 0" Grid.Column="1"  Content="Reset" FontFamily="Cambria" FontSize="16" Click="ResetButton_Click"/>
+            </Grid>
+           
+            
+            <TextBlock Text="Results:" HorizontalAlignment="Center" FontWeight="Bold" Margin="0 20 0 0" FontSize="20" FontFamily="Cambria"/>
+            <StackPanel>
+                <Grid Margin="0,10,0.4,0" Height="60">
+                    <!--Body fat %:-->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label  Grid.Column="0" HorizontalAlignment="Center" FontFamily="Cambria">BODY FAT %</Label>
+                    <Label x:Name="BodyFatInfo" Grid.Column="0" Margin="130,0,38.4,33" MouseDoubleClick="BodyFatInfo_MouseDoubleClick">
+                        <Image  Source="Img/Info.png" Width="15" Height="15"/>
+                        </Label>
+
+                            <TextBox x:Name="FatTxt" FontSize="16" Padding="4" Height="30" Margin="0,0,4.6,10" VerticalAlignment="Bottom"  RenderTransformOrigin="0.501,0.5" IsReadOnly="True" 
+                              Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Cambria" TextAlignment="Center" />
+                    <Label Grid.Column="1" HorizontalAlignment="Center" FontFamily="Cambria">BMI</Label>
+                    <Label x:Name="BMIInfo" Grid.Column="1" Margin="109.6,0,58.8,33" MouseDoubleClick="BMIInfo_MouseDoubleClick">
+                        <Image  Source="Img/Info.png" Width="15" Height="15"/>
+                    </Label>
+                    <TextBox x:Name="BmiTxt" FontSize="16" Grid.Column="1" Padding="4" Height="30"  Margin="5 10 0 0" IsReadOnly="True"
+                             Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Cambria" TextAlignment="Center"/>
+                </Grid>
+                <!--BMR and TDEE-->
+                <Grid Margin="0,10,0.4,0" Height="60">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" HorizontalAlignment="Center" FontFamily="Cambria" >BMR</Label>
+                    <Label x:Name="BMRInfo" Grid.Column="0" Margin="130,0,38.4,33" MouseDoubleClick="BMRInfo_MouseDoubleClick" >
+                        <Image Source="Img/Info.png" Width="15" Height="15"/>
+                    </Label>
+                    <TextBox x:Name="BMRResult" FontSize="16" Padding="4" Height="30" Margin="0,0,4.6,10" VerticalAlignment="Bottom" RenderTransformOrigin="0.501,0.5" IsReadOnly="True" 
+                             Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Cambria" TextAlignment="Center"/>
+                    <Label Grid.Column="1" HorizontalAlignment="Center" FontFamily="Cambria">TDEE</Label>
+                    <Label x:Name="TDEEInfo" Grid.Column="1" Margin="109.6,0,58.8,33" MouseDoubleClick="TDEEInfo_MouseDoubleClick">
+                        <Image  Source="Img/Info.png" Width="15" Height="15"/>
+                    </Label>
+                    <TextBox x:Name="TDEEResult" FontSize="16" Grid.Column="1" Padding="4" Height="30"  Margin="5 10 0 0" IsReadOnly="True"
+                             Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Cambria" TextAlignment="Center"/>
+                </Grid>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>
